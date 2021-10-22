@@ -1,0 +1,124 @@
+ body {
+    margin: 0;
+    padding: 0;
+    
+}
+#img1 {
+    background-image: url("3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#header { 
+    display: flex;
+    justify-content: space-between;
+    border-bottom: white solid 2px;
+    font-family: 'Roboto';
+    padding-top: 30px;
+}
+ol {
+    padding: 25px;
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-weight: 200;
+    
+}
+li {
+    display: inline;
+    padding: 0 10px;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+.right {
+    list-style: none;
+    font-size: 22px;
+    color: white;
+    padding: 0;
+    margin-bottom: 0;
+    
+}
+.left {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 0;
+    padding: 0;
+}
+#center-text {
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+}
+h1 {
+    font-size: 100px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    padding: 50px 0 10px 0;
+    margin: 75px 0 10px 0;
+
+}
+h3 {
+    font-size: 70px;
+    font-family: 'Raleway';
+    font-weight: 100;
+    margin-top: 0px;
+}
+#overlay {
+    background-color: rgba(0,0,0,0.3);
+    height: 100%;
+    width: 100%;
+    padding: 0 70px;
+    box-sizing: border-box;
+}
+#line {
+    height: 0;
+    width: 28%;
+    border: white solid 1px;
+    display: inline-block;
+}
+#img2 {
+    background-image: url("4.jpg");
+    background-size: cover;
+    float: left;
+    height: 500px;
+    width: 750px;
+}
+.picFacts {
+    display: flex;
+    background-color: black;
+    height: 500px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 180px;
+    font-family: "Roboto";
+}
+h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    float: right;
+    text-align: center;
+    flex-direction: row;
+    align-self: flex-end;
+    margin: 0;
+}
+p {
+    color: white;
+    font-size: 20px;
+    align-self: flex-start;
+    font-size: 30px;
+    font-weight: 100;
+}
+#img3 {
+    background-image: url("2.jpg");
+    background-size: cover;
+    float: right;
+    height: 500px;
+    width: 750px;   
+}
+#img4 {
+    background-image: url("1.jpg");
+    background-size: cover;
+    float: left;
+    height: 500px;
+    width: 750px;   
+}
